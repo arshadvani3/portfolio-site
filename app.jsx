@@ -70,6 +70,15 @@ const EXPERIENCE = [
 
 const LEADERSHIP = [
   {
+    role: "Teaching Assistant — PHYS 5: Introductory Physics",
+    where: "UC Santa Cruz",
+    when: "Spring 2026",
+    bullets: [
+      "Broke down complex physics concepts (optics, mechanics, wave theory, polarization) for 60+ students with varied backgrounds through structured lab instruction.",
+      "Designed lab walkthroughs that made abstract theory tangible and measurable.",
+    ],
+  },
+  {
     role: "Teaching Assistant — CSE 183: Web Applications",
     where: "UC Santa Cruz",
     when: "Spring 2025",
@@ -505,12 +514,11 @@ function Contact() {
           <div className="contact-left reveal">
             <div className="sec-eyebrow">let's talk</div>
             <h2>
-              Let's build<br/>
-              <span className="accent">something good.</span>
+              <span className="accent">Let's build.</span>
             </h2>
             <p>
-              Actively looking for full-time new-grad AI/ML and SWE roles starting June 2026.
-              and new-grad. If my work fits your team's stack, send a note.
+              Graduating June 2026, looking for full-time new-grad roles in AI/ML and SWE.
+              If you're building something ambitious and need someone who can ship across the stack, reach out.
             </p>
             <div className="socials">
               <a className="social" href="mailto:arshadvani3@gmail.com" aria-label="Email"><MailIcon /></a>
